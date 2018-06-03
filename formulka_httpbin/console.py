@@ -10,11 +10,11 @@ Ideally use a tool such as `click <http://click.pocoo.org/5/>`_
 For more information check py:func:`click.command` and py:class:`click.Command`
 """
 
-from formulka_httpbin import HttpBinClient
+from formulka_httpbin.client import HttpBinClient
 
 
 def entrypoint():
-    client = HTTPBinClient()
+    client = HttpBinClient()
     print("your IP is: " + client.ip())
     raise SystemExit(1)
 
