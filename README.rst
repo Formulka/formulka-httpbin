@@ -1,7 +1,7 @@
 Petr Olah HTTPBin Client
 ========================
 
-``version 0.0.0``
+``version 0.0.1``
 
 Petr Olah's python client to httpbin.org, open sourced under the MIT license
 
